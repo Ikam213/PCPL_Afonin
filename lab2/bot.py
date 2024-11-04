@@ -3,7 +3,8 @@ from telebot import types
 import requests
 from urllib.request import urlopen
 
-bot = telebot.TeleBot('6931476102:AAGUXcmErr5yKpxwGaDDkSqFC7ng43Qys-c')
+bot = telebot.TeleBot('SecretCode')
+#ask @tal3nt3d on telegram to get it
 
 @bot.message_handler(commands=['start'])
 def handle_start(message):
